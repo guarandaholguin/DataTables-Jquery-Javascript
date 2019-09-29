@@ -1,0 +1,28 @@
+@charset "utf-8";
+header{
+	background: #512DA8;
+}
+
+body {
+	/*background: #673AB7;*/
+	margin: 0;
+	min-height: 100vh;
+	background:url("imagene/mir.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+body:before{
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(90deg,#00FFFF,#F0E68C);
+	opacity: 0.7;
+	margin-top: 94px;
+}
+
+
